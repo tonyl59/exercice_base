@@ -16,5 +16,12 @@ public class Exercice73 {
         }else{
             System.out.println("30 jours");
         }
+
+        /* Correction => Autre méthode:
+        switch (mois){
+        case 2 -> System.out.println("28 ou 29 jours");
+        case 4,6,9,11 -> System.out.println("30 jours");
+        case 1,3,5,7,8,10,12 -> System.out.println("31 jours");
+        case default -> System.out.println("Saisie invalide!!!"); */
     }
 }
